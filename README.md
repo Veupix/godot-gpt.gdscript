@@ -1,2 +1,2 @@
 # godot-est.gdscript
-Template for Godot-engine
+Game-project template for Godot-engine (GDScript)
