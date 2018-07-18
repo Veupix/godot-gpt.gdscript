@@ -4,7 +4,7 @@
 [ext_resource path="res://0_Global/Assets/Images/icon.png" type="Texture" id=2]
 [ext_resource path="res://2_GameSplash/GameSplashShow.tres" type="Animation" id=3]
 
-[node name="GameSplash" type="Control" index="0"]
+[node name="GameSplash" type="Control"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -24,6 +24,7 @@ _sections_unfolded = [ "Visibility" ]
 [node name="GameSplash" type="Control" parent="." index="0"]
 
 editor/display_folded = true
+visible = false
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0

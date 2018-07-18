@@ -2,7 +2,7 @@
 
 [ext_resource path="res://1_Opening/Assets/Fonts/zoi-normal.ttf" type="DynamicFontData" id=1]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=1]
 
 size = 75
 use_mipmaps = false
@@ -12,5 +12,5 @@ _sections_unfolded = [ "Font", "Settings" ]
 
 [resource]
 
-default_font = SubResource( 2 )
+default_font = SubResource( 1 )
 

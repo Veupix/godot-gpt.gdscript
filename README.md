@@ -42,3 +42,9 @@ _Ending scene of the company/creator(s)/game presentation with own set of assets
 * Video
 
 All animations and theme are saved to text .tres for easiest editing.
+<br/>
+<br/>
+**Additionals for License:**
+<br/>
+<br/>
+Template distributed by MIT license, with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects.

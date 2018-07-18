@@ -35,9 +35,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 454.0
+margin_left = 451.0
 margin_top = 446.0
-margin_right = 628.0
+margin_right = 625.0
 margin_bottom = 468.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -55,7 +55,6 @@ _sections_unfolded = [ "Theme" ]
 [node name="Opening" parent="." index="2" instance=ExtResource( 3 )]
 
 visible = false
-_sections_unfolded = [ "Rect", "Theme" ]
 
 [node name="GameSplash" parent="." index="3" instance=ExtResource( 4 )]
 
