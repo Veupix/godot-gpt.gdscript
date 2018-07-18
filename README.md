@@ -43,8 +43,8 @@ All animations and theme are saved to text .tres for easiest editing.
 
 **Global scripts**
 * [GameApp.gd](0_Global/GameApp.gd#L1)
-  * quit _function will open Ending scene_
+  * quit: function will open Ending scene
 * [GameAudio.gd](0_Global/GameAudio.gd#L1)
-  * mute
-  * umute
+  * mute:
+  * umute:
 * [GameLang.gd](0_Global/GameLang.gd#L1)
