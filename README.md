@@ -47,4 +47,4 @@ All animations and theme are saved to text .tres for easiest editing.
 **Additionals for License:**
 <br/>
 <br/>
-Template distributed by MIT license, with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects.
+Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects.
