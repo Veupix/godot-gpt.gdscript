@@ -20,8 +20,8 @@ Basically have buttons:
   * Language switcher _(basically English, Spanish, Russian; will call functions from global module [GameLang.gd](0_Global/GameLang.gd#L1))_
   * Repeat Opening _(will show Opening scene)_
 
-* [Game Menu](4_GameMenu)<br/><br/>
-_Scene of popup menu at game-time with own set of assets; can be opened/closed via event `ui_toggle_game_menu`_<br/>
+* [Game Menu](4_GameMenu)<br/>
+_Scene of popup menu at game-time with own set of assets; can be opened/closed via event `ui_toggle_game_menu`_<br/><br/>
 Basically have buttons:
   * Return _(will hide Game Menu and continue the game)_
   * Exit to Main Menu _(will show Main Menu scene)_
