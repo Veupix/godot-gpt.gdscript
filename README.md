@@ -15,9 +15,9 @@ _Opening scene of game presentation with own set of assets._
 _Scene of the main menu with own set of assets._
 Basically have buttons:
   * New Game _(will show first Game scene)_
-  * Quit Game _(will call function quit from global module (GameApp.gd)[0_Global/GameApp.gd])_
-  * Mute/Unmute _(will call functions from global module (GameAudio.gd)[0_Global/GameAudio.gd])_
-  * Language switcher (English, Spanish, Russian) _(will call functions from global module (GameLang.gd)[0_Global/GameLang.gd])_
+  * Quit Game _(will call function quit from global module_ GameApp.gd)[0_Global/GameApp.gd]_)_
+  * Mute/Unmute _(will call functions from global module_ (GameAudio.gd)[0_Global/GameAudio.gd]_)_
+  * Language switcher _(basically English, Spanish, Russian; will call functions from global module_ (GameLang.gd)[0_Global/GameLang.gd]_)_
   * Repeat Opening _(will show Opening scene)_
 
 * [Game Menu](4_GameMenu)<br/>
