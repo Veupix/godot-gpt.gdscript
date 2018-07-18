@@ -1,4 +1,4 @@
-# godot-est.gdscript
+# godot-gpt.gdscript
 Game-project template for Godot-engine (GDScript)
 
 **Template separated to:**
