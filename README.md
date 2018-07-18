@@ -12,7 +12,7 @@ _Opening scene of the company/creator(s) presentation with own set of assets; ca
 _Opening scene of game presentation with own set of assets; can be closed via event `ui_close_opening`_
 
 * [Main Menu](3_MainMenu)<br/>
-_Scene of the main menu with own set of assets._<br/>
+_Scene of the main menu with own set of assets._<br/><br/>
 Basically have buttons:
   * New Game _(will show first Game scene)_
   * Quit Game _(will call function quit from global module [GameApp.gd](0_Global/GameApp.gd#L1))_
@@ -20,7 +20,7 @@ Basically have buttons:
   * Language switcher _(basically English, Spanish, Russian; will call functions from global module [GameLang.gd](0_Global/GameLang.gd#L1))_
   * Repeat Opening _(will show Opening scene)_
 
-* [Game Menu](4_GameMenu)<br/>
+* [Game Menu](4_GameMenu)<br/><br/>
 _Scene of popup menu at game-time with own set of assets; can be opened/closed via event `ui_toggle_game_menu`_<br/>
 Basically have buttons:
   * Return _(will hide Game Menu and continue the game)_
