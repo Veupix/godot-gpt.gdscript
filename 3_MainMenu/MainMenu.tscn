@@ -1,0 +1,224 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://3_MainMenu/MainMenu.tres" type="Theme" id=1]
+[ext_resource path="res://3_MainMenu/MainMenu.gd" type="Script" id=2]
+[ext_resource path="res://3_MainMenu/btnNewGame.gd" type="Script" id=3]
+[ext_resource path="res://3_MainMenu/btnQuit.gd" type="Script" id=4]
+[ext_resource path="res://3_MainMenu/Assets/Images/repeat.png" type="Texture" id=5]
+[ext_resource path="res://3_MainMenu/btnRepeatOpening.gd" type="Script" id=6]
+[ext_resource path="res://3_MainMenu/Assets/Images/audio.png" type="Texture" id=7]
+[ext_resource path="res://3_MainMenu/Assets/Images/mute.png" type="Texture" id=8]
+[ext_resource path="res://3_MainMenu/btnSound.gd" type="Script" id=9]
+[ext_resource path="res://3_MainMenu/btnLanguage.gd" type="Script" id=10]
+[ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=11]
+
+[node name="MainMenu" type="Control"]
+
+pause_mode = 2
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+_sections_unfolded = [ "Pause", "Theme" ]
+
+[node name="Bgr" type="ColorRect" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 640.0
+margin_bottom = 480.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.113725, 0.113725, 0.113725, 1 )
+_sections_unfolded = [ "Rect" ]
+
+[node name="MainMenu" type="Control" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Rect", "Theme", "Visibility" ]
+
+[node name="btnNewGame" type="Button" parent="MainMenu" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 223.0
+margin_top = 177.0
+margin_right = 418.0
+margin_bottom = 217.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "New Game"
+flat = false
+align = 1
+script = ExtResource( 3 )
+_sections_unfolded = [ "Rect", "Theme" ]
+
+[node name="btnQuit" type="Button" parent="MainMenu" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 223.0
+margin_top = 230.0
+margin_right = 418.0
+margin_bottom = 270.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Quit Game"
+flat = false
+align = 1
+script = ExtResource( 4 )
+_sections_unfolded = [ "Rect" ]
+
+[node name="btnRepeatOpening" type="TextureButton" parent="MainMenu" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 584.0
+margin_top = 429.0
+margin_right = 624.0
+margin_bottom = 469.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 5 )
+expand = true
+stretch_mode = 3
+script = ExtResource( 6 )
+_sections_unfolded = [ "Rect", "Textures" ]
+
+[node name="btnSound" type="TextureButton" parent="MainMenu" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 16.0
+margin_top = 429.0
+margin_right = 56.0
+margin_bottom = 469.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = true
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+expand = true
+stretch_mode = 3
+script = ExtResource( 9 )
+_sections_unfolded = [ "Rect", "Textures" ]
+
+[node name="btnLanguage" type="OptionButton" parent="MainMenu" index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 429.0
+margin_right = 110.0
+margin_bottom = 469.0
+grow_vertical = 0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+action_mode = 0
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = true
+align = 0
+items = [  ]
+selected = -1
+script = ExtResource( 10 )
+_sections_unfolded = [ "Grow Direction" ]
+
+[node name="MainMenuAnim" type="AnimationPlayer" parent="." index="2"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/show = ExtResource( 11 )
+blend_times = [  ]
+
+[connection signal="pressed" from="MainMenu/btnNewGame" to="MainMenu/btnNewGame" method="_on_btnNewGame_pressed"]
+
+[connection signal="pressed" from="MainMenu/btnQuit" to="MainMenu/btnQuit" method="_on_btnQuitGame_pressed"]
+
+[connection signal="pressed" from="MainMenu/btnRepeatOpening" to="MainMenu/btnRepeatOpening" method="_on_btnRepeatOpening_pressed"]
+
+[connection signal="toggled" from="MainMenu/btnSound" to="MainMenu/btnSound" method="_on_btnSound_toggled"]
+
+[connection signal="item_selected" from="MainMenu/btnLanguage" to="MainMenu/btnLanguage" method="_on_btnLanguage_item_selected"]
+
+
