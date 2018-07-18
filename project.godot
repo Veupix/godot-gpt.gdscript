@@ -14,12 +14,6 @@ config/name="Veunix - GPT (GDScript)"
 run/main_scene="res://Entry.tscn"
 config/icon="res://icon.png"
 
-[autoload]
-
-GameApp="*res://0_Global/GameApp.gd"
-GameAudio="*res://0_Global/GameAudio.gd"
-GameLang="*res://0_Global/GameLang.gd"
-
 [display]
 
 window/size/width=640

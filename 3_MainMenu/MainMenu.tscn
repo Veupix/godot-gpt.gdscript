@@ -12,7 +12,7 @@
 [ext_resource path="res://3_MainMenu/btnLanguage.gd" type="Script" id=10]
 [ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=11]
 
-[node name="MainMenu" type="Control"]
+[node name="MainMenu" type="Control" index="0"]
 
 pause_mode = 2
 anchor_left = 0.0

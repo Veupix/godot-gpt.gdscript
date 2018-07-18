@@ -1,4 +1,4 @@
 extends Button
 
 func _on_btnQuit_pressed():
-	GameApp.quit()
+	get_tree().change_scene("res://6_Ending/Ending.tscn")
