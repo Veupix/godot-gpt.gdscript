@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RU.png-180aa055ac6cebe294e84f377d33520d.stex"
+path="res://.import/Unmute.png-fbf5037fb135683e45ae06076b591f51.stex"
 
 [deps]
 
-source_file="res://3_MainMenu/Assets/Images/RU.png"
-source_md5="7da46f8ff7b497924bb43e968a6f3593"
+source_file="res://0_Global/Assets/Images/Unmute.png"
+source_md5="8d390a0e93b9804606488ec5bf0e8f1c"
 
-dest_files=[ "res://.import/RU.png-180aa055ac6cebe294e84f377d33520d.stex" ]
-dest_md5="8979dbd4f3ba22c09892000e3202176a"
+dest_files=[ "res://.import/Unmute.png-fbf5037fb135683e45ae06076b591f51.stex" ]
+dest_md5="6f39b3b5e4fbe3b2744ef8ff10389c60"
 
 [params]
 

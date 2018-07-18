@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mute.png-276b872f64534b69cd3a0da48fc39972.stex"
+path="res://.import/US.png-302bbcb4eb68815faf5fddd1d6bc4af4.stex"
 
 [deps]
 
-source_file="res://3_MainMenu/Assets/Images/mute.png"
-source_md5="1d07e4f62bef39f6790f35dbcee5149b"
+source_file="res://0_Global/Assets/Images/US.png"
+source_md5="fdbc6886c0d40e47af6d2a9673ebf11b"
 
-dest_files=[ "res://.import/mute.png-276b872f64534b69cd3a0da48fc39972.stex" ]
-dest_md5="339548104179af9dc44d66b08e197fff"
+dest_files=[ "res://.import/US.png-302bbcb4eb68815faf5fddd1d6bc4af4.stex" ]
+dest_md5="7acf3d0008202470b00bd89aafcebbeb"
 
 [params]
 

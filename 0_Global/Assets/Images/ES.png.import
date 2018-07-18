@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/audio.png-e35b02b075d80a9ddfe8f2a024210e0b.stex"
+path="res://.import/ES.png-b1413c9701d9721ba7a38fa24f717754.stex"
 
 [deps]
 
-source_file="res://3_MainMenu/Assets/Images/audio.png"
-source_md5="8d390a0e93b9804606488ec5bf0e8f1c"
+source_file="res://0_Global/Assets/Images/ES.png"
+source_md5="0991094b18055bff9976a61f608f7374"
 
-dest_files=[ "res://.import/audio.png-e35b02b075d80a9ddfe8f2a024210e0b.stex" ]
-dest_md5="6f39b3b5e4fbe3b2744ef8ff10389c60"
+dest_files=[ "res://.import/ES.png-b1413c9701d9721ba7a38fa24f717754.stex" ]
+dest_md5="5d8ceea5ef8aeaa1f466b71e9e83c50e"
 
 [params]
 
