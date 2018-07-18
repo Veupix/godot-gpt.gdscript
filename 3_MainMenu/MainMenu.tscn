@@ -213,7 +213,7 @@ blend_times = [  ]
 
 [connection signal="pressed" from="MainMenu/btnNewGame" to="MainMenu/btnNewGame" method="_on_btnNewGame_pressed"]
 
-[connection signal="pressed" from="MainMenu/btnQuit" to="MainMenu/btnQuit" method="_on_btnQuitGame_pressed"]
+[connection signal="pressed" from="MainMenu/btnQuit" to="MainMenu/btnQuit" method="_on_btnQuit_pressed"]
 
 [connection signal="pressed" from="MainMenu/btnRepeatOpening" to="MainMenu/btnRepeatOpening" method="_on_btnRepeatOpening_pressed"]
 

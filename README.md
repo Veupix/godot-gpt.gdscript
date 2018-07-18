@@ -6,10 +6,10 @@ Game-project template for Godot-engine (GDScript)
 _Scripts for AutoLoading, global assets (fonts, textures, audio/video), etc._
 
 * [Opening](1_Opening)<br/>
-_Opening scene of the company/creator(s) presentation with own set of assets; can be closed via event `ui_close_opening`_
+_Opening scene of the company/creator(s) presentation with own set of assets; can be closed via event `ui_skip_titles`_
 
 * [Game Splash Screen](2_GameSplash)<br/>
-_Opening scene of game presentation with own set of assets; can be closed via event `ui_close_opening`_
+_Opening scene of game presentation with own set of assets; can be closed via event `ui_skip_titles`_
 
 * [Main Menu](3_MainMenu)<br/>
 _Scene of the main menu with own set of assets._<br/><br/>
@@ -31,7 +31,7 @@ Basically have buttons:
 _All game scenes and logic are here._
 
 * [Ending](6_Ending)<br/>
-_Ending scene of the company/creator(s)/game presentation with own set of assets; can be closed via event `ui_close_opening`_
+_Ending scene of the company/creator(s)/game presentation with own set of assets; can be closed via event `ui_skip_titles`_
 
 **Assets separated to:**
 * Fonts

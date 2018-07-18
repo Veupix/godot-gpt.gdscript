@@ -1,4 +1,4 @@
 extends Button
 
-func _on_btnQuitGame_pressed():
-	App.quit()
+func _on_btnQuit_pressed():
+	GameApp.quit()
