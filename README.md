@@ -41,10 +41,10 @@ _Ending scene of the company/creator(s)/game presentation with own set of assets
 
 All animations and theme are saved to text .tres for easiest editing.
 
-**Global scripts**
+**Global scripts:**
 * [GameApp.gd](0_Global/GameApp.gd#L1)
-  * quit: function will open Ending scene
+  * `quit`: function will open Ending scene
 * [GameAudio.gd](0_Global/GameAudio.gd#L1)
-  * mute:
-  * umute:
+  * `mute`:
+  * `umute`:
 * [GameLang.gd](0_Global/GameLang.gd#L1)
