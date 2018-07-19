@@ -34,7 +34,7 @@ ui_toggle_game_menu=[ Object(InputEventKey,"resource_local_to_scene":false,"reso
 
 [locale]
 
-locale_filter=[ 1, [ "en", "es", "ru" ] ]
+locale_filter=[ 0, [  ] ]
 
 [rendering]
 

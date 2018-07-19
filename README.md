@@ -43,6 +43,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * enabled 2d strech mode
 * sensor_landscape screen orientation
 * enabled oversampling usage for dynamic fonts
+* all sources and text resources are in UTF-8 encoding
 
 #### Istallation:
 * clone this repo to your local folder
