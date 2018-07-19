@@ -1,6 +1,10 @@
 # godot-gpt.gdscript
 Game-project template for Godot-engine (GDScript)
 
+#### Why?:
+
+Just so as not to waste time creating standard parts and structure from the beginning (like a Opening, Main menu, Game menu, Ending, etc.).
+
 #### Template separated to:
 * [Global](0_Global) _(scripts for AutoLoading, shared controls, assets (fonts, textures, audio/video), etc.)_
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
