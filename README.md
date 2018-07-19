@@ -3,7 +3,7 @@ Game-project template for Godot-engine (GDScript)
 
 #### Why?:
 
-Just so as not to waste time creating standard parts and structure from the beginning (like a Opening, Main menu, Game menu, Ending, etc.).
+Just so as not to waste time creating standard parts and structure from the beginning (like an Opening, Main menu, Game menu, Ending, etc.).
 
 #### Template separated to:
 * [Global](0_Global) _(scripts for AutoLoading, shared controls, assets (fonts, textures, audio/video), etc.)_
