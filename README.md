@@ -36,4 +36,5 @@ All animations and themes saved to text files.tres for easiest editing.
 * Language Switcher _(basically available English, Spanish and Russian languages)_
 
 <br/>**Additionals for License:**
-<br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects.
+<br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects and should change to your own.
+<br/>_(by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_
