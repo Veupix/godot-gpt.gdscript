@@ -29,11 +29,25 @@ Game-project template for Godot-engine (GDScript)
 * Sounds
 * Video
 
-All animations and themes saved to text files.tres for easiest editing.
-
 <br/>**Shared controls:**
 * Mute/Unmute button _(basically works with furst bus with index 0)_
 * Language Switcher _(basically available English, Spanish and Russian languages)_
+
+<br/>**Notes:**
+* all animations and themes saved to text files.tres to easiest changing
+* default screen resolution 640x480
+* enabled touch emulation
+* enabled 2d strech mode
+* sensor_landscape screen orientation
+* enabled oversampling usage for dynamic fonts
+
+<br/>**Istall:**
+* clone this repo to your local folder
+* change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section "Additional for License" below)
+* change Game Splash scene
+* add/remove languages
+* add functionality at Main Menu
+* 
 
 <br/>**Additionals for License:**
 <br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects and should change to your own.
