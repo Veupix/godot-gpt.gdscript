@@ -46,7 +46,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 
 #### Istallation:
 * clone this repo to your local folder
-* change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)
+* change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
 * change Game Splash Sreen scene
 * add/remove languages
 * add functionality for Main Menu
