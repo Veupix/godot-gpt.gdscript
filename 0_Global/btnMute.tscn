@@ -2,9 +2,9 @@
 
 [ext_resource path="res://0_Global/Assets/Images/Unmute.png" type="Texture" id=1]
 [ext_resource path="res://0_Global/Assets/Images/Mute.png" type="Texture" id=2]
-[ext_resource path="res://0_Global/Mute.gd" type="Script" id=3]
+[ext_resource path="res://0_Global/btnMute.gd" type="Script" id=3]
 
-[node name="Mute" type="TextureButton" index="0"]
+[node name="btnMute" type="TextureButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -32,6 +32,6 @@ stretch_mode = 3
 script = ExtResource( 3 )
 _sections_unfolded = [ "Rect", "Textures" ]
 
-[connection signal="toggled" from="." to="." method="_on_Mute_toggled"]
+[connection signal="toggled" from="." to="." method="_on_btnMute_toggled"]
 
 

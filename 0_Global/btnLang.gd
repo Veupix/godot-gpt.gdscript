@@ -3,6 +3,8 @@ extends OptionButton
 var langs = ["English", "Spanish", "Russian"]
 
 func _ready():
+	#print(OS.get_locale())
+	
 	add_icon_item(preload("res://0_Global/Assets/Images/US.png"), "", 0)
 	add_icon_item(preload("res://0_Global/Assets/Images/ES.png"), "", 1)
 	add_icon_item(preload("res://0_Global/Assets/Images/RU.png"), "", 2)

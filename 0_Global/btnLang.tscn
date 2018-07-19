@@ -2,7 +2,7 @@
 
 [ext_resource path="res://0_Global/btnLang.gd" type="Script" id=1]
 
-[node name="btnLang" type="OptionButton"]
+[node name="btnLang" type="OptionButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
