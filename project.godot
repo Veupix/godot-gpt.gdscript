@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="Veunix - GPT (GDScript)"
+config/name="Veupix - GPT (GDScript)"
 run/main_scene="res://Entry.tscn"
 config/icon="res://icon.png"
 
