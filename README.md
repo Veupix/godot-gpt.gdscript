@@ -54,6 +54,6 @@ Just so as not to waste time creating standard parts and structure from the begi
 * change Game scene and make your own game!
 
 #### Additionals for License:
-Template distributed under **MIT license** with the **exception of title "Veupix" and logo images of "Veupix"**.
+Template distributed under MIT license with the **exception of title "Veupix" and logo images of "Veupix"**.
  You **can't use this title and logo** in your own projects and you should to change these to your own
  _(note that by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_.
