@@ -43,11 +43,12 @@ Game-project template for Godot-engine (GDScript)
 
 <br/>**Istall:**
 * clone this repo to your local folder
-* change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section "Additional for License" below)
-* change Game Splash scene
+* change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section "Additionals for License" below)
+* change Game Splash Sreen scene
 * add/remove languages
-* add functionality at Main Menu
-* 
+* add functionality for Main Menu
+* add functionality for Game Menu
+* change Game scene and make your own game!
 
 <br/>**Additionals for License:**
 <br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects and should change to your own.
