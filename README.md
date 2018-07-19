@@ -31,7 +31,7 @@ Game-project template for Godot-engine (GDScript)
 * Sounds
 * Video
 
-All animations and themes saved to text  files.tres for easiest editing.
+All animations and themes saved to text files.tres for easiest editing.
 
 <br/>**Additionals for License:**
 <br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects.
