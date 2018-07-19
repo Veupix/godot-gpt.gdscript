@@ -9,16 +9,16 @@ Game-project template for Godot-engine (GDScript)
 <br/>  Basically have buttons:
   * New Game _(will show first Game scene)_
   * Quit Game _(will function will open Ending scene)_
-  * Mute/Unmute (global control)
-  * Language switcher (global control)
+  * Mute/Unmute _(global control)_
+  * Language switcher _(global control)_
   * Repeat Opening _(will show Opening scene)_
 * [Game Menu](4_GameMenu) _(scene of popup menu at game-time with own set of assets; can be opened/closed via event `ui_toggle_game_menu`)_
 <br/>  Basically have buttons:
   * Return _(will hide Game Menu and continue the game)_
   * Exit to Main Menu _(will show Main Menu scene)_
   * Quit Game _(function will open Ending scene)_
-  * Mute/Unmute (global control)
-  * Language Switcher (global control)
+  * Mute/Unmute _(global control)_
+  * Language Switcher _(global control)_
 * [Game](5_Game) _(all game scenes and logic are here)_
 * [Ending](6_Ending) _(ending scene of the company/creator(s)/game presentation with own set of assets; can be closed via event `ui_skip_titles`)_
 
