@@ -27,7 +27,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * [Ending](6_Ending) _(ending scene of the company/creator(s)/game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 
 
-#### Assets separated to:
+#### Assets are separated to:
 * Fonts
 * Images
 * Sounds
