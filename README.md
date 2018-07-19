@@ -9,16 +9,16 @@ Game-project template for Godot-engine (GDScript)
 <br/>  Basically have buttons:
   * New Game _(will show first Game scene)_
   * Quit Game _(will function will open Ending scene)_
-  * Mute/Unmute _(global control)_
-  * Language switcher _(global control)_
+  * Mute/Unmute _(shared control)_
+  * Language switcher _(shared control)_
   * Repeat Opening _(will show Opening scene)_
 * [Game Menu](4_GameMenu) _(scene of popup menu at game-time with own set of assets; can be opened/closed via event `ui_toggle_game_menu`)_
 <br/>  Basically have buttons:
   * Return _(will hide Game Menu and continue the game)_
   * Exit to Main Menu _(will show Main Menu scene)_
   * Quit Game _(function will open Ending scene)_
-  * Mute/Unmute _(global control)_
-  * Language Switcher _(global control)_
+  * Mute/Unmute _(shared control)_
+  * Language Switcher _(shared control)_
 * [Game](5_Game) _(all game scenes and logic are here)_
 * [Ending](6_Ending) _(ending scene of the company/creator(s)/game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 
@@ -31,7 +31,7 @@ Game-project template for Godot-engine (GDScript)
 
 All animations and themes saved to text files.tres for easiest editing.
 
-<br/>**Global controls:**
+<br/>**Shared controls:**
 * Mute/Unmute button _(basically works with furst bus with index 0)_
 * Language Switcher _(basically available English, Spanish and Russian languages)_
 
