@@ -1,7 +1,7 @@
 # godot-gpt.gdscript
 Game-project template for Godot-engine (GDScript)
 
-**Template separated to:**
+<br/>**Template separated to:**
 
 * [Global](0_Global) _(scripts for AutoLoading, shared controls, assets (fonts, textures, audio/video), etc.)_
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets; can be closed via event `ui_skip_titles`)_
@@ -24,14 +24,14 @@ Game-project template for Godot-engine (GDScript)
 * [Ending](6_Ending) _(ending scene of the company/creator(s)/game presentation with own set of assets; can be closed via event `ui_skip_titles`)_
 
 
-**Assets separated to:**
+<br/>**Assets separated to:**
 
 * Fonts
 * Images
 * Sounds
 * Video
 
-<br/>All animations and theme are saved to text .tres for easiest editing.
+All animations and theme are saved to text .tres for easiest editing.
 
-**Additionals for License:**
+<br/>**Additionals for License:**
 <br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects.
