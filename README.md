@@ -1,7 +1,7 @@
 # godot-gpt.gdscript
 Game-project template for Godot-engine (GDScript)
 
-####Template separated to:
+#### Template separated to:
 * [Global](0_Global) _(scripts for AutoLoading, shared controls, assets (fonts, textures, audio/video), etc.)_
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 * [Game Splash Screen](2_GameSplash) _(opening scene of game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
@@ -23,17 +23,17 @@ Game-project template for Godot-engine (GDScript)
 * [Ending](6_Ending) _(ending scene of the company/creator(s)/game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 
 
-####Assets separated to:
+#### Assets separated to:
 * Fonts
 * Images
 * Sounds
 * Video
 
-####Shared controls:
+#### Shared controls:
 * Mute/Unmute button _(basically works with furst bus with index 0)_
 * Language Switcher _(basically available English, Spanish and Russian languages)_
 
-####Notes:
+#### Notes:
 * all animations and themes saved to text files.tres to easiest changing
 * default screen resolution 640x480
 * enabled touch emulation
@@ -41,7 +41,7 @@ Game-project template for Godot-engine (GDScript)
 * sensor_landscape screen orientation
 * enabled oversampling usage for dynamic fonts
 
-####Istallation:
+#### Istallation:
 * clone this repo to your local folder
 * change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section "Additionals for License" below)
 * change Game Splash Sreen scene
@@ -50,6 +50,6 @@ Game-project template for Godot-engine (GDScript)
 * add functionality for Game Menu
 * change Game scene and make your own game!
 
-####Additionals for License:
+#### Additionals for License:
 <br/><br/>Template distributed by MIT license with the exception of title "Veupix" and logo images of "Veupix". You can't use these in your own projects and should change to your own.
 <br/>_(by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_
