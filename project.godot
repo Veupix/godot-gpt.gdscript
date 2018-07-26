@@ -22,6 +22,10 @@ window/handheld/orientation="sensor_landscape"
 window/handheld/emulate_touchscreen=true
 window/stretch/mode="2d"
 
+[gui]
+
+theme/custom_font="res://0_Global/Assets/Fonts/cmunorm.ttf"
+
 [input]
 
 ui_skip_titles=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
@@ -34,7 +38,11 @@ ui_toggle_game_menu=[ Object(InputEventKey,"resource_local_to_scene":false,"reso
 
 [locale]
 
-locale_filter=[ 0, [  ] ]
+locale_filter=[ 1, [ "en_US", "es_ES", "ru_RU" ] ]
+translation_remaps={
+
+}
+translations=PoolStringArray( "res://0_Global/Assets/Locale/es_ES.po", "res://0_Global/Assets/Locale/ru_RU.po" )
 
 [rendering]
 

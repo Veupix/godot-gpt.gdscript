@@ -1,10 +1,10 @@
 [gd_resource type="Theme" load_steps=3 format=2]
 
-[ext_resource path="res://3_MainMenu/Assets/Fonts/tuffy-regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://0_Global/Assets/Fonts/cmunorm.ttf" type="DynamicFontData" id=1]
 
 [sub_resource type="DynamicFont" id=1]
 
-size = 21
+size = 16
 use_mipmaps = false
 use_filter = false
 font_data = ExtResource( 1 )
@@ -13,4 +13,5 @@ _sections_unfolded = [ "Font", "Settings" ]
 [resource]
 
 default_font = SubResource( 1 )
+_sections_unfolded = [ "Font", "Settings" ]
 

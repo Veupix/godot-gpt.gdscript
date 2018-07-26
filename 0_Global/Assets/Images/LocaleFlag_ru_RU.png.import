@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ES.png-b1413c9701d9721ba7a38fa24f717754.stex"
+path="res://.import/LocaleFlag_ru_RU.png-b67bf567e2595c38d9571afdf8fb6fcc.stex"
 
 [deps]
 
-source_file="res://0_Global/Assets/Images/ES.png"
-source_md5="0991094b18055bff9976a61f608f7374"
+source_file="res://0_Global/Assets/Images/LocaleFlag_ru_RU.png"
+source_md5="7f9bda8edecd7e25b988e38c087ed277"
 
-dest_files=[ "res://.import/ES.png-b1413c9701d9721ba7a38fa24f717754.stex" ]
-dest_md5="5d8ceea5ef8aeaa1f466b71e9e83c50e"
+dest_files=[ "res://.import/LocaleFlag_ru_RU.png-b67bf567e2595c38d9571afdf8fb6fcc.stex" ]
+dest_md5="9976ee68743a9f4a0b1769f1ba8ba3a8"
 
 [params]
 

@@ -44,6 +44,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * sensor_landscape screen orientation
 * enabled oversampling usage for dynamic fonts
 * all sources and text resources are in UTF-8 encoding
+* [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font (MIT) uses by default
 
 #### Istallation:
 * clone this repo to your local folder

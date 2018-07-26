@@ -1,13 +1,13 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://3_MainMenu/MainMenu.tres" type="Theme" id=1]
+[ext_resource path="res://0_Global/Assets/Fonts/DefaultFont.tres" type="Theme" id=1]
 [ext_resource path="res://3_MainMenu/MainMenu.gd" type="Script" id=2]
 [ext_resource path="res://3_MainMenu/btnNewGame.gd" type="Script" id=3]
 [ext_resource path="res://3_MainMenu/btnQuit.gd" type="Script" id=4]
 [ext_resource path="res://3_MainMenu/Assets/Images/repeat.png" type="Texture" id=5]
 [ext_resource path="res://3_MainMenu/btnRepeatOpening.gd" type="Script" id=6]
-[ext_resource path="res://0_Global/btnMute.tscn" type="PackedScene" id=7]
-[ext_resource path="res://0_Global/btnLang.tscn" type="PackedScene" id=8]
+[ext_resource path="res://0_Global/Mute.tscn" type="PackedScene" id=7]
+[ext_resource path="res://0_Global/LangSwitcher.tscn" type="PackedScene" id=8]
 [ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=9]
 
 [node name="MainMenu" type="Control"]
@@ -50,8 +50,6 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 40.0
-margin_bottom = 40.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -118,7 +116,7 @@ _sections_unfolded = [ "Rect" ]
 
 anchor_left = 0.0
 anchor_top = 0.0
-anchor_right = 0.0
+anchor_right = 1.0
 anchor_bottom = 0.0
 margin_left = 585.0
 margin_top = 425.0
@@ -139,7 +137,7 @@ texture_normal = ExtResource( 5 )
 expand = true
 stretch_mode = 3
 script = ExtResource( 6 )
-_sections_unfolded = [ "Rect", "Textures" ]
+_sections_unfolded = [ "Anchor", "Rect" ]
 
 [node name="btnMute" parent="MainMenu" index="3" instance=ExtResource( 7 )]
 
@@ -147,14 +145,15 @@ margin_left = 15.0
 margin_top = 425.0
 margin_right = 55.0
 margin_bottom = 465.0
+_sections_unfolded = [ "Anchor", "Rect", "Textures" ]
 
 [node name="btnLang" parent="MainMenu" index="4" instance=ExtResource( 8 )]
 
 margin_left = 76.0
 margin_top = 425.0
-margin_right = 115.0
+margin_right = 147.0
 margin_bottom = 465.0
-_sections_unfolded = [ "Grow Direction", "Rect" ]
+_sections_unfolded = [ "Anchor", "Grow Direction", "Rect" ]
 
 [node name="MainMenuAnim" type="AnimationPlayer" parent="." index="2"]
 

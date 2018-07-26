@@ -1,0 +1,39 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"X-Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Entry.tscn
+#: 0_Global/SkipHint.tscn
+msgid "( click to skip )"
+msgstr "( click para omitir )"
+
+#: 1_Opening/Opening.tscn
+msgid "Present"
+msgstr "¡Presente!"
+
+#: 3_MainMenu/MainMenu.tscn
+msgid "New Game"
+msgstr "Nuevo Juego"
+
+#: 3_MainMenu/MainMenu.tscn
+#: 4_GameMenu/GameMenu.tscn
+msgid "Quit Game"
+msgstr "Salir del Juego"
+
+#: 4_GameMenu/GameMenu.tscn
+msgid "Return to Game"
+msgstr "Regresar al Juego"
+
+#: 4_GameMenu/GameMenu.tscn
+msgid "Exit to Main Menu"
+msgstr "Salir al Menú Principal"
