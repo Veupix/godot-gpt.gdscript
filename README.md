@@ -47,13 +47,13 @@ Just so as not to waste time creating standard parts and structure from the begi
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font (MIT) uses by default
 
 #### Installation:
-* clone this repo to your local folder
-* change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
-* change Game Splash Sreen scene
-* add/remove languages
-* add functionality for Main Menu
-* add functionality for Game Menu
-* change Game scene and make your own game!
+1. clone this repo to your local folder
+2. change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
+3. change Game Splash Sreen scene
+4. add/remove languages
+5. add functionality for Main Menu
+6. add functionality for Game Menu
+7. change Game scene and make your own game!
 
 #### Additionals for License:
 Template distributed under MIT license with the **exception of title "Veupix" and logo images of "Veupix"**.
