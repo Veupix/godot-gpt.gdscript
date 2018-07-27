@@ -29,7 +29,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 #### Assets separated to:
 * Fonts _(contains fonts)_
 * Images _(contains images, textures, sprites, etc.)_
-* Locale _(contains translations)_
+* Locale _(contains translation of UI)_
 * Sounds _(contains audio files, sound effects, music, etc.)_
 * Video _(contains video files for splash screen, demo-scenes, etc.)_
 
