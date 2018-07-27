@@ -27,14 +27,17 @@ Just so as not to waste time creating standard parts and structure from the begi
 
 
 #### Assets separated to:
-* Fonts
-* Images
-* Sounds
-* Video
+* Fonts _(contains fonts)_
+* Images _(contains images, textures, sprites, etc.)_
+* Locale _(contains translations)_
+* Sounds _(contains audio files, sound effects, music, etc.)_
+* Video _(contains video files for splash screen, demo-scenes, etc.)_
 
 #### Shared controls:
-* Mute/Unmute button _(basically works with furst bus with index 0)_
-* Language Switcher _(basically available English, Spanish and Russian languages)_
+* Copyright _(label with your own copyright; by default displays on Opening, Game Splash and Ending scenes)_
+* LangSwitcher _(dropdown list with available UI translations, basically available English, Spanish and Russian languages; by default displays on Main Menu and Game Menu scenes)_
+* Mute _(button to mute/unmute, basically works with first bus with index 0; by default displays on Main Menu and Game Menu scenes)_
+* SkipHint _(label how to skip a splash screen / demo scene; by default displays on Opening, Game Splash and Ending scenes)_
 
 #### Notes:
 * all animations and themes saved to text files.tres to easiest changing
