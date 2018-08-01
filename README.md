@@ -34,6 +34,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * Video _(contains video files for splash screen, demo-scenes, etc.)_
 
 #### Shared controls:
+* Confirm _(custom confirmation dialog without borders)_
 * Copyright _(label with your own copyright; by default displays on Opening, Game Splash and Ending scenes)_
 * LangSwitcher _(dropdown list with available UI translations, basically available English, Spanish and Russian languages; by default displays on Main Menu and Game Menu scenes)_
 * Mute _(button to mute/unmute, basically works with first bus with index 0; by default displays on Main Menu and Game Menu scenes)_

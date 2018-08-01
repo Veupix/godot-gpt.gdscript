@@ -37,3 +37,15 @@ msgstr "Вернуться в Игру"
 #: 4_GameMenu/GameMenu.tscn
 msgid "Exit to Main Menu"
 msgstr "Выход в Главное Меню"
+
+#: 3_MainMenu/btnQuit.gd:4
+msgid "Really want to quit game?"
+msgstr "Действительно хотите выйти из игры?"
+
+#: 4_GameMenu/btnMainMenu.gd:4
+msgid "You can loss your progress!\nReally want go to Main Menu?"
+msgstr "Вы можете потерять ваш прогресс!\nДействительно хотите выйти в Главное Меню?"
+
+#: 4_GameMenu/btnQuit.gd:4
+msgid "You can loss your progress!\nReally want to quit game?"
+msgstr "Вы можете потерять ваш прогресс!\nДействительно хотите выйти из игры?"

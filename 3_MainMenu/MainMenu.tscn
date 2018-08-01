@@ -1,16 +1,17 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://0_Global/Assets/Fonts/DefaultFont.tres" type="Theme" id=1]
 [ext_resource path="res://3_MainMenu/MainMenu.gd" type="Script" id=2]
 [ext_resource path="res://3_MainMenu/btnNewGame.gd" type="Script" id=3]
 [ext_resource path="res://3_MainMenu/btnQuit.gd" type="Script" id=4]
-[ext_resource path="res://3_MainMenu/Assets/Images/repeat.png" type="Texture" id=5]
-[ext_resource path="res://3_MainMenu/btnRepeatOpening.gd" type="Script" id=6]
-[ext_resource path="res://0_Global/Mute.tscn" type="PackedScene" id=7]
-[ext_resource path="res://0_Global/LangSwitcher.tscn" type="PackedScene" id=8]
-[ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=9]
+[ext_resource path="res://0_Global/Confirm.tscn" type="PackedScene" id=5]
+[ext_resource path="res://3_MainMenu/Assets/Images/repeat.png" type="Texture" id=6]
+[ext_resource path="res://3_MainMenu/btnRepeatOpening.gd" type="Script" id=7]
+[ext_resource path="res://0_Global/Mute.tscn" type="PackedScene" id=8]
+[ext_resource path="res://0_Global/LangSwitcher.tscn" type="PackedScene" id=9]
+[ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=10]
 
-[node name="MainMenu" type="Control"]
+[node name="MainMenu" type="Control" index="0"]
 
 pause_mode = 2
 anchor_left = 0.0
@@ -112,6 +113,10 @@ align = 1
 script = ExtResource( 4 )
 _sections_unfolded = [ "Rect" ]
 
+[node name="Confirm" parent="MainMenu/btnQuit" index="0" instance=ExtResource( 5 )]
+
+visible = false
+
 [node name="btnRepeatOpening" type="TextureButton" parent="MainMenu" index="2"]
 
 anchor_left = 0.0
@@ -133,13 +138,13 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 5 )
+texture_normal = ExtResource( 6 )
 expand = true
 stretch_mode = 3
-script = ExtResource( 6 )
+script = ExtResource( 7 )
 _sections_unfolded = [ "Anchor", "Rect" ]
 
-[node name="btnMute" parent="MainMenu" index="3" instance=ExtResource( 7 )]
+[node name="btnMute" parent="MainMenu" index="3" instance=ExtResource( 8 )]
 
 margin_left = 15.0
 margin_top = 425.0
@@ -147,7 +152,7 @@ margin_right = 55.0
 margin_bottom = 465.0
 _sections_unfolded = [ "Anchor", "Rect", "Textures" ]
 
-[node name="btnLang" parent="MainMenu" index="4" instance=ExtResource( 8 )]
+[node name="btnLang" parent="MainMenu" index="4" instance=ExtResource( 9 )]
 
 margin_left = 76.0
 margin_top = 425.0
@@ -162,7 +167,7 @@ autoplay = "show"
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/show = ExtResource( 9 )
+anims/show = ExtResource( 10 )
 blend_times = [  ]
 
 [connection signal="pressed" from="MainMenu/btnNewGame" to="MainMenu/btnNewGame" method="_on_btnNewGame_pressed"]

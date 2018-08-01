@@ -19,7 +19,7 @@ msgstr "( click para omitir )"
 
 #: 1_Opening/Opening.tscn
 msgid "Present"
-msgstr "¡Presente!"
+msgstr "Presente"
 
 #: 3_MainMenu/MainMenu.tscn
 msgid "New Game"
@@ -37,3 +37,15 @@ msgstr "Regresar al Juego"
 #: 4_GameMenu/GameMenu.tscn
 msgid "Exit to Main Menu"
 msgstr "Salir al Menú Principal"
+
+#: 3_MainMenu/btnQuit.gd:4
+msgid "Really want to quit game?"
+msgstr "¿Realmente quieres dejar el juego?"
+
+#: 4_GameMenu/btnMainMenu.gd:4
+msgid "You can loss your progress!\nReally want go to Main Menu?"
+msgstr "¡Puedes perder tu progreso!\n¿Realmente quieres ir al menú principal?"
+
+#: 4_GameMenu/btnQuit.gd:4
+msgid "You can loss your progress!\nReally want to quit game?"
+msgstr "¡Puedes perder tu progreso!\n¿Realmente quieres salir del juego?"
