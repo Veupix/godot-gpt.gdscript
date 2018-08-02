@@ -41,15 +41,16 @@ Just so as not to waste time creating standard parts and structure from the begi
 * SkipHint _(label how to skip a splash screen / demo scene; by default displays on Opening, Game Splash and Ending scenes)_
 
 #### Notes:
-* all animations and themes saved to text `.tres` files to easiest changing
+* all animations and themes are saved in `.tres` text files to easiest changing
 * default screen resolution `640x480`
 * enabled `touch emulation`
 * enabled `2d strech mode`
 * `sensor_landscape` screen orientation
 * enabled `oversampling` usage for dynamic fonts
 * by default all controls and UI have a `English (en_US)` language
-* basically available also `Spanish (es_ES)` and `Russian (ru_RU)` translations _(contained into a [.po](https://en.wikipedia.org/wiki/Gettext) files)_
-* all sources and text resources are in `UTF-8 encoding`
+* basically available also `Spanish (es_ES)` and `Russian (ru_RU)` translations
+* all translations are saved in [.po](https://en.wikipedia.org/wiki/Gettext) text files to easiest changing
+* all text files have a `UTF-8 encoding` (sources, translations, text resources, etc.)
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font (MIT) uses by default
 
 #### Installation:
