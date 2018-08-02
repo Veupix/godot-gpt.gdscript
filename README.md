@@ -41,23 +41,24 @@ Just so as not to waste time creating standard parts and structure from the begi
 * SkipHint _(label how to skip a splash screen / demo scene; by default displays on Opening, Game Splash and Ending scenes)_
 
 #### Notes:
-* all animations and themes saved to text files.tres to easiest changing
-* default screen resolution 640x480
-* enabled touch emulation
-* enabled 2d strech mode
-* sensor_landscape screen orientation
-* enabled oversampling usage for dynamic fonts
-* all sources and text resources are in UTF-8 encoding
+* all animations and themes saved to text `.tres` files to easiest changing
+* default screen resolution `640x480`
+* enabled `touch emulation`
+* enabled `2d strech mode`
+* `sensor_landscape` screen orientation
+* enabled `oversampling` usage for dynamic fonts
+* all sources and text resources are in `UTF-8 encoding`
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font (MIT) uses by default
 
 #### Installation:
-1. clone this repo to your local folder
-2. change Opening scene and Ending scene to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
-3. change Game Splash Sreen scene
-4. add/remove languages
-5. add functionality for Main Menu
-6. add functionality for Game Menu
-7. change Game scene and make your own game!
+1. clone this repo to your local folder, open project in Godot and change project's title to your own
+2. change `Opening` and `Ending` scenes to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
+3. change `Game Splash Sreen` scene
+4. add/remove languages (`0_Global/Accets/Locale` and `Projcet Settings -> Localization -> Translations`)
+5. add functionality for the `Main Menu` scene
+6. add functionality for the `Game Menu` scene
+7. change `Game` scene and make your own game logic!
+8. expand the game translations (`0_Global/Accets/Locale`)
 
 #### Additionals for License:
 Template distributed under MIT license with the **exception of title "Veupix" and logo images of "Veupix"**.
