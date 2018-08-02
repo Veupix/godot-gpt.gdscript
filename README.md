@@ -47,6 +47,8 @@ Just so as not to waste time creating standard parts and structure from the begi
 * enabled `2d strech mode`
 * `sensor_landscape` screen orientation
 * enabled `oversampling` usage for dynamic fonts
+* by default all controls and UI have a `English (en_US)` language
+* basically available also `Spanish (es_ES)` and `Russian (ru_RU)` translations
 * all sources and text resources are in `UTF-8 encoding`
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font (MIT) uses by default
 
