@@ -5,7 +5,7 @@ Game-project template for [Godot](https://godotengine.org/) game engine ([GDScri
 Just so as not to waste time creating standard parts and structure from the beginning (like an Opening, Main menu, Game menu, Ending, etc.).
 
 #### Template separated to:
-* [Global](0_Global) _(scripts for AutoLoading, shared controls, assets (fonts, textures, audio/video), etc.)_
+* [Global](0_Global) _(scripts for AutoLoading, [shared controls](#shared-controls), assets (fonts, textures, audio/video), etc.)_
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 * [Game Splash Screen](2_GameSplash) _(opening scene of game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 * [Main Menu](3_MainMenu) _(scene of the main menu with own set of assets)_
