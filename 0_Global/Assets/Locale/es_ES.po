@@ -17,6 +17,14 @@ msgstr ""
 msgid "( click to skip )"
 msgstr "( click para omitir )"
 
+#: 0_Global/Confirm.tscn
+msgid "OK"
+msgstr "OK"
+
+#: 0_Global/Confirm.tscn
+msgid "Cancel"
+msgstr "Cancelar"
+
 #: 1_Opening/Opening.tscn
 msgid "Present"
 msgstr "Presente"

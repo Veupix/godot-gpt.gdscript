@@ -126,8 +126,8 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 26.0
-margin_right = 80.0
+margin_left = 25.0
+margin_right = 79.0
 margin_bottom = 20.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -144,13 +144,13 @@ text = "Cancel"
 flat = false
 align = 1
 
-[node name="Ok" type="Button" parent="ElementsC/ElementsM/ElementsV/BtnBox" index="1"]
+[node name="OK" type="Button" parent="ElementsC/ElementsM/ElementsV/BtnBox" index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 90.0
+margin_left = 89.0
 margin_right = 120.0
 margin_bottom = 20.0
 rect_pivot_offset = Vector2( 0, 0 )
@@ -164,12 +164,12 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-text = "Ok"
+text = "OK"
 flat = false
 align = 1
 
 [connection signal="pressed" from="ElementsC/ElementsM/ElementsV/BtnBox/Cancel" to="." method="_on_Cancel_pressed"]
 
-[connection signal="pressed" from="ElementsC/ElementsM/ElementsV/BtnBox/Ok" to="." method="_on_Ok_pressed"]
+[connection signal="pressed" from="ElementsC/ElementsM/ElementsV/BtnBox/OK" to="." method="_on_Ok_pressed"]
 
 
