@@ -6,7 +6,7 @@ func _physics_process(delta):
 
 func show():
 	get_tree().paused = true
-	$GameMenu.visible = false
+	visible = false
 	$GameMenuAnim.play("show")
 
 func hide():

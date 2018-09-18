@@ -1,41 +1,29 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://0_Global/Assets/Fonts/DefaultFont.tres" type="Theme" id=1]
-[ext_resource path="res://3_MainMenu/MainMenu.gd" type="Script" id=2]
+[ext_resource path="res://3_MainMenu/MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://0_Global/Assets/Fonts/DefaultFont.tres" type="Theme" id=2]
 [ext_resource path="res://3_MainMenu/btnNewGame.gd" type="Script" id=3]
 [ext_resource path="res://3_MainMenu/btnQuit.gd" type="Script" id=4]
 [ext_resource path="res://0_Global/Confirm.tscn" type="PackedScene" id=5]
-[ext_resource path="res://3_MainMenu/Assets/Images/repeat.png" type="Texture" id=6]
-[ext_resource path="res://3_MainMenu/btnRepeatOpening.gd" type="Script" id=7]
-[ext_resource path="res://0_Global/Mute.tscn" type="PackedScene" id=8]
-[ext_resource path="res://0_Global/LangSwitcher.tscn" type="PackedScene" id=9]
-[ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=10]
+[ext_resource path="res://0_Global/Mute.tscn" type="PackedScene" id=6]
+[ext_resource path="res://0_Global/LangSwitcher.tscn" type="PackedScene" id=7]
+[ext_resource path="res://0_Global/Assets/Images/LocaleFlag_en_US.png" type="Texture" id=8]
+[ext_resource path="res://3_MainMenu/Assets/Images/repeat.png" type="Texture" id=9]
+[ext_resource path="res://3_MainMenu/btnRepeatOpening.gd" type="Script" id=10]
+[ext_resource path="res://3_MainMenu/MainMenuShow.tres" type="Animation" id=11]
 
-[node name="MainMenu" type="Control" index="0"]
+[node name="MainMenu" type="Node" index="0"]
 
 pause_mode = 2
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-theme = ExtResource( 1 )
-script = ExtResource( 2 )
+script = ExtResource( 1 )
 _sections_unfolded = [ "Pause", "Theme" ]
 
 [node name="Bgr" type="ColorRect" parent="." index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_right = 640.0
-margin_bottom = 480.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -45,30 +33,54 @@ size_flags_vertical = 1
 color = Color( 0.113725, 0.113725, 0.113725, 1 )
 _sections_unfolded = [ "Rect" ]
 
-[node name="MainMenu" type="Control" parent="." index="1"]
+[node name="Margin" type="Control" parent="." index="1"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-_sections_unfolded = [ "Rect", "Theme", "Visibility" ]
+theme = ExtResource( 2 )
+_sections_unfolded = [ "Margin", "Theme" ]
 
-[node name="btnNewGame" type="Button" parent="MainMenu" index="0"]
+[node name="MainMenu" type="VBoxContainer" parent="Margin" index="0"]
+
+editor/display_folded = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -80.5
+margin_top = -22.0
+margin_right = 80.5
+margin_bottom = 22.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+_sections_unfolded = [ "Theme", "Visibility" ]
+
+[node name="btnNewGame" type="Button" parent="Margin/MainMenu" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 223.0
-margin_top = 177.0
-margin_right = 418.0
-margin_bottom = 217.0
+margin_right = 161.0
+margin_bottom = 32.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -86,16 +98,16 @@ align = 1
 script = ExtResource( 3 )
 _sections_unfolded = [ "Rect", "Theme" ]
 
-[node name="btnQuit" type="Button" parent="MainMenu" index="1"]
+[node name="btnQuit" type="Button" parent="Margin/MainMenu" index="1"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 223.0
-margin_top = 230.0
-margin_right = 418.0
-margin_bottom = 270.0
+margin_top = 36.0
+margin_right = 161.0
+margin_bottom = 68.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -113,20 +125,40 @@ align = 1
 script = ExtResource( 4 )
 _sections_unfolded = [ "Rect" ]
 
-[node name="Confirm" parent="MainMenu/btnQuit" index="0" instance=ExtResource( 5 )]
+[node name="Confirm" parent="Margin/MainMenu/btnQuit" index="0" instance=ExtResource( 5 )]
 
 visible = false
 
-[node name="btnRepeatOpening" type="TextureButton" parent="MainMenu" index="2"]
+[node name="btnMute" parent="Margin" index="1" instance=ExtResource( 6 )]
 
-anchor_left = 0.0
-anchor_top = 0.0
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 0.0
+margin_top = -40.0
+margin_right = 40.0
+margin_bottom = 0.0
+
+[node name="btnLang" parent="Margin" index="2" instance=ExtResource( 7 )]
+
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -36.0
+margin_top = -35.0
+margin_right = 35.0
+margin_bottom = 0.0
+icon = ExtResource( 8 )
+_sections_unfolded = [ "Anchor", "Grow Direction", "Rect" ]
+
+[node name="btnRepeatOpening" type="TextureButton" parent="Margin" index="3"]
+
+anchor_left = 1.0
+anchor_top = 1.0
 anchor_right = 1.0
-anchor_bottom = 0.0
-margin_left = 585.0
-margin_top = 425.0
-margin_right = 625.0
-margin_bottom = 465.0
+anchor_bottom = 1.0
+margin_left = -40.0
+margin_top = -40.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -138,27 +170,11 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 6 )
+texture_normal = ExtResource( 9 )
 expand = true
 stretch_mode = 3
-script = ExtResource( 7 )
-_sections_unfolded = [ "Anchor", "Rect" ]
-
-[node name="btnMute" parent="MainMenu" index="3" instance=ExtResource( 8 )]
-
-margin_left = 15.0
-margin_top = 425.0
-margin_right = 55.0
-margin_bottom = 465.0
+script = ExtResource( 10 )
 _sections_unfolded = [ "Anchor", "Rect", "Textures" ]
-
-[node name="btnLang" parent="MainMenu" index="4" instance=ExtResource( 9 )]
-
-margin_left = 76.0
-margin_top = 425.0
-margin_right = 147.0
-margin_bottom = 465.0
-_sections_unfolded = [ "Anchor", "Grow Direction", "Rect" ]
 
 [node name="MainMenuAnim" type="AnimationPlayer" parent="." index="2"]
 
@@ -167,13 +183,13 @@ autoplay = "show"
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/show = ExtResource( 10 )
+anims/show = ExtResource( 11 )
 blend_times = [  ]
 
-[connection signal="pressed" from="MainMenu/btnNewGame" to="MainMenu/btnNewGame" method="_on_btnNewGame_pressed"]
+[connection signal="pressed" from="Margin/MainMenu/btnNewGame" to="Margin/MainMenu/btnNewGame" method="_on_btnNewGame_pressed"]
 
-[connection signal="pressed" from="MainMenu/btnQuit" to="MainMenu/btnQuit" method="_on_btnQuit_pressed"]
+[connection signal="pressed" from="Margin/MainMenu/btnQuit" to="Margin/MainMenu/btnQuit" method="_on_btnQuit_pressed"]
 
-[connection signal="pressed" from="MainMenu/btnRepeatOpening" to="MainMenu/btnRepeatOpening" method="_on_btnRepeatOpening_pressed"]
+[connection signal="pressed" from="Margin/btnRepeatOpening" to="Margin/btnRepeatOpening" method="_on_btnRepeatOpening_pressed"]
 
 

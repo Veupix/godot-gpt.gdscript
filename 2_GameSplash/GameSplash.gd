@@ -1,5 +1,5 @@
 extends Control
 
 func show():
-	$GameSplash.visible = false
+	visible = false
 	$GameSplashAnim.play("show")

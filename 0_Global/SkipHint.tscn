@@ -2,14 +2,14 @@
 
 [ext_resource path="res://0_Global/Assets/Fonts/DefaultFontLittle.tres" type="Theme" id=1]
 
-[node name="SkipHint" type="Label"]
+[node name="SkipHint" type="Label" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 92.0
-margin_bottom = 14.0
+margin_right = 108.0
+margin_bottom = 20.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
