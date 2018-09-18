@@ -60,6 +60,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
+_sections_unfolded = [ "Theme" ]
 
 [node name="Bgr" type="ColorRect" parent="GameMenu" index="0"]
 
@@ -92,10 +93,11 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Visibility" ]
+_sections_unfolded = [ "Margin", "Theme", "Visibility" ]
 
 [node name="GMCentered" type="CenterContainer" parent="GameMenu/GameMenu" index="0"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -107,9 +109,11 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 use_top_left = false
+_sections_unfolded = [ "Theme" ]
 
 [node name="GMBtns" type="VBoxContainer" parent="GameMenu/GameMenu/GMCentered" index="0"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0

@@ -62,6 +62,7 @@ margin_left = -262.5
 margin_top = -227.5
 margin_right = 262.5
 margin_bottom = 227.5
+theme = null
 
 [node name="GameSplash" parent="Margin" index="1" instance=ExtResource( 4 )]
 
@@ -93,7 +94,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = -20.0
 margin_right = -5.0
-margin_bottom = 0.0
+margin_bottom = 6.0
 script = ExtResource( 7 )
 _sections_unfolded = [ "Margin", "Rect", "Theme" ]
 

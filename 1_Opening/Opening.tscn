@@ -5,7 +5,7 @@
 [ext_resource path="res://1_Opening/Assets/Images/Veupix500.png" type="Texture" id=3]
 [ext_resource path="res://1_Opening/OpeningShow.tres" type="Animation" id=4]
 
-[node name="Opening" type="Control"]
+[node name="Opening" type="Control" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -105,6 +105,7 @@ _sections_unfolded = [ "Rect", "Theme" ]
 
 [node name="Present" type="Label" parent="." index="1"]
 
+visible = false
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
