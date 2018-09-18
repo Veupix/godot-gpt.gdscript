@@ -52,6 +52,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * all translations are saved in [.po](https://en.wikipedia.org/wiki/Gettext) text files to easiest changing
 * all text files have a `UTF-8 encoding` (sources, translations, text resources, etc.)
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font ([MIT](https://en.wikipedia.org/wiki/MIT_License)) uses by default (placed to `0_Global/Accets/Fonts`)
+<br/>  Basically uses in:
   * `Entry/Margin.Theme:DefaultFont.tres`
   * `0_Global/Copyright.Theme:DefaultLittleFont.tres`
   * `0_Global/SkipHint.Theme:DefaultLittleFont.tres`
