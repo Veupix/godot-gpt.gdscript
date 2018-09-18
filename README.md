@@ -42,9 +42,9 @@ Just so as not to waste time creating standard parts and structure from the begi
 
 #### Notes:
 * all animations and themes are saved in `.tres` text files to easiest changing
-* default screen resolution `640x480`
+* default screen resolution is `WSVGA` (`1024x600`)
 * enabled `touch emulation`
-* enabled `2d strech mode`
+* enabled `2d strech mode` with `expand` aspect
 * `sensor_landscape` screen orientation
 * enabled `oversampling` usage for dynamic fonts
 * by default all controls and UI have a `English (en_US)` language
