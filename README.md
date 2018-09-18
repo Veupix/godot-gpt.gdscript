@@ -51,7 +51,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * basically available also `Spanish (es_ES)` and `Russian (ru_RU)` translations
 * all translations are saved in [.po](https://en.wikipedia.org/wiki/Gettext) text files to easiest changing
 * all text files have a `UTF-8 encoding` (sources, translations, text resources, etc.)
-* [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font (MIT) uses by default (placed to `0_Global/Accets/Fonts`)
+* [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font ([MIT](https://en.wikipedia.org/wiki/MIT_License)) uses by default (placed to `0_Global/Accets/Fonts`)
   * `Entry/Margin.Theme:DefaultFont.tres`
   * `0_Global/Copyright.Theme:DefaultLittleFont.tres`
   * `0_Global/SkipHint.Theme:DefaultLittleFont.tres`
@@ -72,6 +72,6 @@ Just so as not to waste time creating standard parts and structure from the begi
 8. expand the game translations _(`0_Global/Accets/Locale`)_
 
 #### Additionals for License:
-Template distributed under MIT license with the **exception of title "Veupix" and logo images of "Veupix"**.
+Template distributed under [MIT license](https://en.wikipedia.org/wiki/MIT_License) with the **exception of title "Veupix" and logo images of "Veupix"**.
  You **can't use this title and logo** in your own projects and you should to change these to your own
  _(note that by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_.
