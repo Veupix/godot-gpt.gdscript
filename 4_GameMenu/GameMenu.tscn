@@ -42,7 +42,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-color = Color( 0.0980392, 0.0980392, 0.0980392, 0.313726 )
+color = Color( 0.0980392, 0.0980392, 0.0980392, 0.27451 )
 
 [node name="GameMenu" type="Control" parent="." index="1"]
 
@@ -60,7 +60,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-_sections_unfolded = [ "Theme" ]
+_sections_unfolded = [ "Theme", "Visibility" ]
 
 [node name="Bgr" type="ColorRect" parent="GameMenu" index="0"]
 
@@ -74,7 +74,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-color = Color( 0.0980392, 0.0980392, 0.0980392, 0.0980392 )
+color = Color( 0.0980392, 0.0980392, 0.0980392, 0.176471 )
 _sections_unfolded = [ "Pause", "Rect" ]
 
 [node name="GameMenu" type="Control" parent="GameMenu" index="1"]

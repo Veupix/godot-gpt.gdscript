@@ -76,3 +76,6 @@ Just so as not to waste time creating standard parts and structure from the begi
 Template distributed under [MIT license](https://en.wikipedia.org/wiki/MIT_License) with the **exception of title "Veupix" and logo images of "Veupix"**.
  You **can't use this title and logo** in your own projects and you should to change these to your own
  _(note that by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_.
+
+#### Sreens:
+![gpt](giphy1.gif)
