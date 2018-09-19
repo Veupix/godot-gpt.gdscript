@@ -12,10 +12,10 @@
 [ext_resource path="res://4_GameMenu/GameMenuHide.tres" type="Animation" id=10]
 [ext_resource path="res://4_GameMenu/GameMenuShow.tres" type="Animation" id=11]
 
-[node name="GameMenu" type="Control" index="0"]
+[node name="GameMenu" type="Popup" index="0"]
 
 pause_mode = 2
-visible = false
+modulate = Color( 1, 1, 1, 0 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -27,6 +27,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 theme = ExtResource( 1 )
+popup_exclusive = false
 script = ExtResource( 2 )
 _sections_unfolded = [ "Pause", "Theme", "Visibility" ]
 
@@ -50,9 +51,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -149.5
+margin_left = -150.0
 margin_top = -131.0
-margin_right = 149.5
+margin_right = 149.0
 margin_bottom = 131.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -74,11 +75,12 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-color = Color( 0.0980392, 0.0980392, 0.0980392, 0.176471 )
+color = Color( 0.0980392, 0.0980392, 0.0980392, 0.254902 )
 _sections_unfolded = [ "Pause", "Rect" ]
 
 [node name="GameMenu" type="Control" parent="GameMenu" index="1"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -97,7 +99,6 @@ _sections_unfolded = [ "Margin", "Theme", "Visibility" ]
 
 [node name="GMCentered" type="CenterContainer" parent="GameMenu/GameMenu" index="0"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -113,7 +114,6 @@ _sections_unfolded = [ "Theme" ]
 
 [node name="GMBtns" type="VBoxContainer" parent="GameMenu/GameMenu/GMCentered" index="0"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0

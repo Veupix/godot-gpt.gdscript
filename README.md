@@ -39,6 +39,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 * LangSwitcher _(dropdown list with available UI translations, basically available English, Spanish and Russian languages; by default displays on Main Menu and Game Menu scenes)_
 * Mute _(button to mute/unmute, basically works with first bus with index 0; by default displays on Main Menu and Game Menu scenes)_
 * SkipHint _(label how to skip a splash screen / demo scene; by default displays on Opening, Game Splash and Ending scenes)_
+* Joystick _(controller for Joystick emulation; by default displays on Game scene)_
 
 #### Notes:
 * all animations and themes are saved in `.tres` text files to easiest changing
@@ -69,7 +70,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 4. add/remove languages _(`0_Global/Accets/Locale` and `Projcet Settings -> Localization -> Translations`)_
 5. add functionality for the `Main Menu` scene
 6. add functionality for the `Game Menu` scene
-7. change `Game` scene and make your own game logic!
+7. change `Game` scene, make your own game logic and logic of `Joystick` controller!
 8. expand the game translations _(`0_Global/Accets/Locale`)_
 
 #### Additionals for License:
@@ -78,4 +79,4 @@ Template distributed under [MIT license](https://en.wikipedia.org/wiki/MIT_Licen
  _(note that by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_.
 
 #### Preview:
-![gpt](giphy1.gif)
+![gpt](giphy0.gif)
