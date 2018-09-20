@@ -2,7 +2,7 @@
 Game-project template for [Godot](https://godotengine.org/) game engine ([GDScript](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_basics.html))
 
 #### ![butwhy](butwhy.jpg) But Why?:
-Just so as not to waste time creating standard parts and structure from the beginning (like an Opening, Main menu, Game menu, Ending, etc.).
+Just so as **not to waste time** creating **standard parts** and structure **from the beginning** _(like an `Opening`, `Main menu`, `Game menu`, `Ending`, etc.)_.
 
 #### Template separated to:
 * [Global](0_Global) _(scripts for AutoLoading, [shared controls](#shared-controls), assets (fonts, textures, audio/video), etc.)_
