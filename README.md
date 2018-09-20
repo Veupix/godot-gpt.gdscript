@@ -70,7 +70,7 @@ Just so as not to waste time creating standard parts and structure from the begi
 4. add/remove languages _(`0_Global/Accets/Locale` and `Projcet Settings -> Localization -> Translations`)_
 5. add functionality for the `Main Menu` scene
 6. add functionality for the `Game Menu` scene
-7. change `Game` scene, make your own game logic and logic of `Joystick` controller!
+7. change `Game` scene (`5_Game/Game.tscn`) to make your own game logic and change (or delete) `JoystickLogic` (`5_Game/JoystickLogic.gd`) to make your own logic of the virtual controller!
 8. expand the game translations _(`0_Global/Accets/Locale`)_
 
 #### Additionals for License:
