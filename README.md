@@ -54,14 +54,14 @@ Just so as not to waste time creating standard parts and structure from the begi
 * all text files have a `UTF-8 encoding` (sources, translations, text resources, etc.)
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font ([MIT](https://en.wikipedia.org/wiki/MIT_License)) uses by default (placed to `0_Global/Accets/Fonts`)
 <br/>  Basically uses in:
-  * `Entry/Margin.Theme:DefaultFont.tres`
-  * `0_Global/Copyright.Theme:DefaultLittleFont.tres`
-  * `0_Global/SkipHint.Theme:DefaultLittleFont.tres`
-  * `1_Opening/Opening.Theme:DefaultFont.tres`
-  * `2_GameSplash/GameSplash/GameTitle.Theme:DefaultFont.tres`
-  * `3_MainMenu/MainMenu/Margin.Theme:DefaultFont.tres`
-  * `4_GameMenu/GameMenu.Theme:DefaultFont.tres`
-  * `6_Ending/Ending/Margin.Theme:DefaultFont.tres`
+  * `Entry/Margin.Theme`:`DefaultFont.tres`
+  * `0_Global/Copyright.Theme`:`DefaultLittleFont.tres`
+  * `0_Global/SkipHint.Theme`:`DefaultLittleFont.tres`
+  * `1_Opening/Opening.Theme`:`DefaultFont.tres`
+  * `2_GameSplash/GameSplash/GameTitle.Theme`:`DefaultFont.tres`
+  * `3_MainMenu/MainMenu/Margin.Theme`:`DefaultFont.tres`
+  * `4_GameMenu/GameMenu.Theme`:`DefaultFont.tres`
+  * `6_Ending/Ending/Margin.Theme`:`DefaultFont.tres`
 
 #### Installation And Usage:
 1. clone this repo to your local folder, open project in [Godot](https://godotengine.org/) and change project's settings to your own _(title, resolution, etc.)_
