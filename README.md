@@ -79,4 +79,4 @@ Template distributed under [MIT license](https://en.wikipedia.org/wiki/MIT_Licen
  _(note that by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_.
 
 #### Preview:
-![gpt](giphy0.gif)
+![gpt](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
