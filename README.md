@@ -68,14 +68,14 @@ Just so as not to waste time creating standard parts and structure from the begi
 2. change `Opening` _(`1_Opening/Opening.tscn`)_ and `Ending` _(`6_Ending/Ending.tscn`)_ scenes to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
 3. change `Game Splash Sreen` scene _(`2_GameSplash/GameSplash.tscn`)_
 4. change Menu scenes
-  1. add functionality for the `Main Menu` scene _(`3_MainMenu/MainMenu.tscn`)_
-  2. add functionality for the `Game Menu` scene _(`4_GameMenu/GameMenu.tscn`)_
+  4.1. add functionality for the `Main Menu` scene _(`3_MainMenu/MainMenu.tscn`)_
+  4.2. add functionality for the `Game Menu` scene _(`4_GameMenu/GameMenu.tscn`)_
 5. make game-scenes and game-logic
-  1. change `Game` scene _(`5_Game/Game.tscn`)_ and add sub-scenes to make your own game logic_
-  2. change _(or delete)_ `JoystickLogic` _(`5_Game/JoystickLogic.gd`)_ to make your own logic of the virtual controller
+  5.1. change `Game` scene _(`5_Game/Game.tscn`)_ and add sub-scenes to make your own game logic_
+  5.2. change _(or delete)_ `JoystickLogic` _(`5_Game/JoystickLogic.gd`)_ to make your own logic of the virtual controller
 6. add the multilanguage support
-  1. add/remove languages _(`0_Global/Accets/Locale` and `Projcet Settings -> Localization -> Translations`)_
-  2. expand the game translations _(`0_Global/Accets/Locale`)_
+  6.1. add/remove languages _(`0_Global/Accets/Locale` and `Projcet Settings -> Localization -> Translations`)_
+  6.2. expand the game translations _(`0_Global/Accets/Locale`)_
 
 #### Additionals for License:
 Template distributed under [MIT license](https://en.wikipedia.org/wiki/MIT_License) with the **exception of title "Veupix" and logo images of "Veupix"**.
