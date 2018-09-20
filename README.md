@@ -7,7 +7,7 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 #### Preview:
 ![gpt.preview](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
 
-#### Template separated to:
+#### Template is Separated to:
 * [Global](0_Global) _(scripts for AutoLoading, [shared controls](#shared-controls), assets (fonts, textures, audio/video), etc.)_
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 * [Game Splash Screen](2_GameSplash) _(opening scene of game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
@@ -29,14 +29,14 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 * [Ending](6_Ending) _(ending scene of the company/creator(s)/game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 
 
-#### Assets separated to:
+#### Assets are Separated to:
 * Fonts _(contains fonts)_
 * Images _(contains images, textures, sprites, etc.)_
 * Locale _(contains translation of UI)_
 * Sounds _(contains audio files, sound effects, music, etc.)_
 * Video _(contains video files for splash screen, demo-scenes, etc.)_
 
-#### Shared controls:
+#### Shared Controls:
 * **Confirm** _(custom confirmation dialog without borders and title; has a question and two buttons: "Cancel" and "Ok")_
 * **Copyright** _(label with your own copyright; by default displays on Opening, Game Splash and Ending scenes)_
 * **LangSwitcher** _(dropdown list with available UI translations, basically available English, Spanish and Russian languages; by default displays on Main Menu and Game Menu scenes)_
