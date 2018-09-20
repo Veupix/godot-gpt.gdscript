@@ -1,7 +1,7 @@
 # godot-gpt.gdscript
 Game-project template for [Godot](https://godotengine.org/) game engine ([GDScript](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_basics.html))
 
-#### ![butwhy](https://ibb.co/nGVX1e) But Why?:
+#### ![butwhy](http://i68.tinypic.com/168bdc4.jpg) But Why?:
 Just so as **not to waste time** creating **standard parts** and structure **from the beginning** _(like an `Opening`, `Main menu`, `Game menu`, `Ending`, etc.)_.
 
 #### Template separated to:
