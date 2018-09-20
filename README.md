@@ -4,6 +4,9 @@ Game-project template for [Godot](https://godotengine.org/) game engine ([GDScri
 #### ![butwhy](http://i68.tinypic.com/168bdc4.jpg) But Why?:
 Just so as **not to waste time** creating **standard parts** and structure **from the beginning** _(like an `Opening`, `Main menu`, `Game menu`, `Ending`, etc.)_.
 
+#### Preview:
+![gpt](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
+
 #### Template separated to:
 * [Global](0_Global) _(scripts for AutoLoading, [shared controls](#shared-controls), assets (fonts, textures, audio/video), etc.)_
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
@@ -81,6 +84,3 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 Template distributed under [MIT license](https://en.wikipedia.org/wiki/MIT_License) with the **exception of title "Veupix" and logo images of "Veupix"**.
  You **can't use this title and logo** in your own projects and you should to change these to your own
  _(note that by default title "Veupix" and logo "Veupix" can be found at Opening scene and Ending scene)_.
-
-#### Preview:
-![gpt](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
