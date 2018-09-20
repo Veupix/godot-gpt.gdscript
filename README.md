@@ -5,8 +5,9 @@ Game-project template for [Godot](https://godotengine.org/) game engine ([GDScri
 Just so as **not to waste time** creating **standard parts** and structure **from the beginning** _(like an `Opening`, `Main menu`, `Game menu`, `Ending`, etc.)_.
 
 #### Preview:
+
 <p align="center">
-  ![gpt](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
+![gpt.preview](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
 </p>
 
 #### Template separated to:
