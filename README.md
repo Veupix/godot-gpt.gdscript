@@ -6,7 +6,7 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 
 #### Preview:
 <p align="center">
-  ![gpt](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
+	![gpt](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
 </p>
 
 #### Template separated to:
