@@ -63,7 +63,7 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
   * `4_GameMenu/GameMenu.Theme`:`DefaultFont.tres`
   * `6_Ending/Ending/Margin.Theme`:`DefaultFont.tres`
 
-#### Installation And Usage:
+#### Installation and Usage:
 1. clone this repo to your local folder, open project in [Godot](https://godotengine.org/) and change project's settings to your own _(title, resolution, etc.)_
 2. change `Opening` _(`1_Opening/Opening.tscn`)_ and `Ending` _(`6_Ending/Ending.tscn`)_ scenes to your own _(don't forget to change titles and logos "Veupix", see section [Additionals for License](#additionals-for-license) below)_
 3. change `Game Splash Sreen` scene _(`2_GameSplash/GameSplash.tscn`)_
