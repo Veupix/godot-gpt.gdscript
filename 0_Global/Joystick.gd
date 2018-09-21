@@ -1,62 +1,65 @@
 extends Sprite
 
+var sensivity = 50
+var use_up = true
+var use_down = true
+var use_left = true
+var use_right = true
+
+var stick_vector = Vector2()
 var stick_speed = 0
 var stick_angle = 0
-var stick_vector = Vector2()
-var stick_sensivity = 50
 
-var RADIUS
-var SMALL_RADIUS
-
-var stick_pos
-var evt_index = -1
-
-var is_pressed = false
-
+var _radius_ext = 0
+var _radius_int = 0
+var _is_pressed = false
 
 func _ready():
-	RADIUS = get_texture().get_size().x / 2
-	SMALL_RADIUS = $Stick.get_texture().get_size().x / 2
+	_radius_ext = get_texture().get_size().x / 2
+	_radius_int = $Stick.get_texture().get_size().x / 2
 
 func _input(event):
 	if event is InputEventScreenTouch:
-		is_pressed = event.is_pressed()
-		if not is_pressed:
+		_is_pressed = event.is_pressed()
+		if not _is_pressed:
 			hide(event)
-	elif event is InputEventScreenDrag and is_pressed:
-		if not visible and position.distance_to(event.position) >= stick_sensivity:
+	elif event is InputEventScreenDrag and _is_pressed:
+		if not visible and position.distance_to(event.position) >= sensivity:
 			show(event)
-		elif evt_index != -1:
+		elif position.distance_to(event.position) < _radius_ext:
 			move(event)
-
 
 func show(event):
 	position = event.position
-	stick_pos = position
 	$Stick.position = Vector2()
 	
 	$"../JoystickAnim".play('show')
-	
-	if stick_pos.distance_to(event.position) < RADIUS:
-		evt_index = event.index
 
 func hide(event):
 	$"../JoystickAnim".play('hide')
-	
-	evt_index = -1
+
 	stick_speed = 0
 	stick_vector = Vector2()
 	stick_angle = 0
 
 func move(event):
-	var dist = stick_pos.distance_to(event.position)
+	var next_pos = event.position
 	
-	if dist + SMALL_RADIUS > RADIUS:
-		dist = RADIUS - SMALL_RADIUS
+	var dist = position.distance_to(next_pos)
 	
-	var vect = (event.position - stick_pos).normalized()
+	if dist + _radius_int > _radius_ext:
+		dist = _radius_ext - _radius_int
+	
+	if ( not use_up and next_pos.y < position.y ) or ( not use_down and next_pos.y > position.y ):
+		next_pos.y = position.y
+	
+	if ( not use_left and next_pos.x < position.x ) or ( not use_right and next_pos.x > position.x ):
+		next_pos.x = position.x
+	
+	var vect = (next_pos - position).normalized()
 	
 	stick_speed = dist
 	stick_vector = vect
-	stick_angle = event.position.angle_to_point(stick_pos)
+	stick_angle = next_pos.angle_to_point(position)
+	
 	$Stick.position = vect * dist
