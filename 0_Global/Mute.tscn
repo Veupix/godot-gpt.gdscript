@@ -4,17 +4,15 @@
 [ext_resource path="res://0_Global/Assets/Images/Mute.png" type="Texture" id=2]
 [ext_resource path="res://0_Global/Mute.gd" type="Script" id=3]
 
-
 [node name="btnMute" type="TextureButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -22.0
-margin_top = -20.0
-margin_right = 18.0
-margin_bottom = 20.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2

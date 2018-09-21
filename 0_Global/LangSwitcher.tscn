@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://0_Global/LangSwitcher.gd" type="Script" id=1]
+[ext_resource path="res://0_Global/Assets/Images/LocaleFlag_en_US.png" type="Texture" id=1]
+[ext_resource path="res://0_Global/LangSwitcher.gd" type="Script" id=2]
 
 [node name="LangSwitcher" type="OptionButton" index="0"]
 
@@ -8,10 +9,8 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -19.0
-margin_top = -19.0
-margin_right = 52.0
-margin_bottom = 21.0
+margin_right = 71.0
+margin_bottom = 40.0
 grow_vertical = 0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -25,12 +24,13 @@ action_mode = 0
 enabled_focus_mode = 2
 shortcut = null
 group = null
+icon = ExtResource( 1 )
 flat = true
 align = 0
 items = [  ]
 selected = -1
-script = ExtResource( 1 )
-_sections_unfolded = [ "Grow Direction" ]
+script = ExtResource( 2 )
+_sections_unfolded = [ "Rect" ]
 
 [connection signal="item_selected" from="." to="." method="_on_btnLang_item_selected"]
 
