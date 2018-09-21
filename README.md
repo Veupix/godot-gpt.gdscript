@@ -50,7 +50,7 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
   * `use_down` _(use down direction; by default `true`)_
   * `use_left` _(use left direction; by default `true`)_
   * `use_right` _(use right direction; by default `true`)_
-<br/>Position:
+<br/><br/>Position:
   * `stick_vector`
   * `stick_speed`
   * `stick_angle`
