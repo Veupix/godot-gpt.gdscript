@@ -12,14 +12,14 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 * [Opening](1_Opening) _(opening scene of the company/creator(s) presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 * [Game Splash Screen](2_GameSplash) _(opening scene of game presentation with own set of assets, commercial ad and etc.; can be closed via event `ui_skip_titles`)_
 * [Main Menu](3_MainMenu) _(scene of the main menu with own set of assets)_
-<br/>  Basically have buttons:
+<br/>Basically have buttons:
   * New Game _(will show first Game scene)_
   * Quit Game _(will function will open Ending scene)_
   * Mute/Unmute _(shared control)_
   * Language switcher _(shared control)_
   * Repeat Opening _(will show Opening scene)_
 * [Game Menu](4_GameMenu) _(scene of popup menu at game-time with own set of assets; can be opened/closed via event `ui_toggle_game_menu`)_
-<br/>  Basically have buttons:
+<br/>Basically have buttons:
   * Return _(will hide Game Menu and continue the game)_
   * Exit to Main Menu _(will show Main Menu scene)_
   * Quit Game _(function will open Ending scene)_
@@ -44,13 +44,13 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 * **QuickSettings** _(horizontal panel with `LangSwitcher` and `Mute` controls; by default displays on Main Menu and Game Menu scenes)_
 * **SkipHint** _(label how to skip a splash screen / demo scene; by default displays on Opening, Game Splash and Ending scenes)_
 * **Joystick** _(controller for Joystick emulation; by default displays on Game scene)_
-<br/>  Settings:
+<br/>Settings:
   * `sensivity` _(skip N units before Joystick will be opened; by default `50`)_
   * `use_up` _(use up direction; by default `true`)_
   * `use_down` _(use down direction; by default `true`)_
   * `use_left` _(use left direction; by default `true`)_
   * `use_right` _(use right direction; by default `true`)_
-<br/>  Position:
+<br/>Position:
   * `stick_vector`
   * `stick_speed`
   * `stick_angle`
@@ -67,7 +67,7 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 * all translations are saved in [.po](https://en.wikipedia.org/wiki/Gettext) text files to easiest changing
 * all text files have a `UTF-8 encoding` (sources, translations, text resources, etc.)
 * [Computer Modern Unicode](https://sourceforge.net/projects/cm-unicode/) font ([MIT](https://en.wikipedia.org/wiki/MIT_License)) uses by default (placed to `0_Global/Accets/Fonts`)
-<br/>  Basically uses in:
+<br/>Basically uses in:
   * `Entry/Margin.Theme`:`DefaultFont.tres`
   * `0_Global/Copyright.Theme`:`DefaultLittleFont.tres`
   * `0_Global/SkipHint.Theme`:`DefaultLittleFont.tres`
