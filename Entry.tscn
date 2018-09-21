@@ -53,7 +53,6 @@ _sections_unfolded = [ "Margin", "Theme" ]
 
 [node name="Opening" parent="Margin" index="0" instance=ExtResource( 3 )]
 
-visible = false
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
