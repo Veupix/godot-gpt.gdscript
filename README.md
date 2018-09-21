@@ -44,7 +44,6 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 * **QuickSettings** _(horizontal panel with `LangSwitcher` and `Mute` controls; by default displays on Main Menu and Game Menu scenes)_
 * **SkipHint** _(label how to skip a splash screen / demo scene; by default displays on Opening, Game Splash and Ending scenes)_
 * **Joystick** _(controller for Joystick emulation; by default displays on Game scene)_
-
   Settings:
   * `sensivity` _(skip N units before Joystick will be opened; by default `50`)_
   * `use_up` _(use up direction; by default `true`)_
