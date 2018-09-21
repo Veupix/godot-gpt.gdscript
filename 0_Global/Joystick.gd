@@ -26,7 +26,7 @@ func _input(event):
 	elif event is InputEventScreenDrag and _is_pressed:
 		if not visible and position.distance_to(event.position) >= sensivity:
 			show(event)
-		elif position.distance_to(event.position) < _radius_ext:
+		else:
 			move(event)
 
 func show(event):
