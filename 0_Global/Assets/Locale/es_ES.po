@@ -29,6 +29,10 @@ msgstr "Cancelar"
 msgid "Present"
 msgstr "Presente"
 
+#: 2_GameSplash/GameSplash.tscn
+msgid "GAME TITLE"
+msgstr "NOMBRE del JUEGO"
+
 #: 3_MainMenu/MainMenu.tscn
 msgid "New Game"
 msgstr "Nuevo Juego"

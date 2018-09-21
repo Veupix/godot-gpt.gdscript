@@ -53,14 +53,6 @@ _sections_unfolded = [ "Margin", "Theme" ]
 
 [node name="Opening" parent="Margin" index="0" instance=ExtResource( 3 )]
 
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -262.5
-margin_top = -227.5
-margin_right = 262.5
-margin_bottom = 227.5
 theme = null
 
 [node name="GameSplash" parent="Margin" index="1" instance=ExtResource( 4 )]
@@ -70,9 +62,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -50.0
+margin_left = -175.0
 margin_top = -50.0
-margin_right = 50.0
+margin_right = 175.0
 margin_bottom = 50.0
 
 [node name="Copyright" parent="Margin" index="2" instance=ExtResource( 5 )]

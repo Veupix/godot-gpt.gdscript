@@ -29,6 +29,10 @@ msgstr "Отмена"
 msgid "Present"
 msgstr "Представляет"
 
+#: 2_GameSplash/GameSplash.tscn
+msgid "GAME TITLE"
+msgstr "НАЗВАНИЕ ИГРЫ"
+
 #: 3_MainMenu/MainMenu.tscn
 msgid "New Game"
 msgstr "Новая Игра"

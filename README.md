@@ -5,7 +5,7 @@ Game-project template for [Godot](https://godotengine.org/) game engine ([GDScri
 Just so as **not to waste time** creating **standard parts** and structure **from the beginning** _(like an `Opening`, `Main menu`, `Game menu`, `Ending`, etc.)_.
 
 #### Preview:
-![gpt.preview](https://media.giphy.com/media/14uR1XjXHuvg6CZFIe/giphy.gif)
+![gpt.preview](https://media.giphy.com/media/3HuIZsXzEFaINAPCrQ/giphy.gif)
 
 #### Template is Separated to:
 * [Global](0_Global) _(scripts for AutoLoading, [shared controls](#shared-controls), assets (fonts, textures, audio/video), etc.)_
