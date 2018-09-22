@@ -56,12 +56,12 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
     * `stick_speed` _(read only)_
     * `stick_vector` _(read only)_
   
-  Dynamic Joystick:
-  ![joystick_dynamic](http://i64.tinypic.com/1tsu9t.png)
+  <br/>Dynamic Joystick:
+  <br/>![joystick_dynamic](http://i64.tinypic.com/1tsu9t.png)
   ![gpt.joystick_dynamic](https://media.giphy.com/media/XJMrXeIrDhegQpeR1C/giphy.gif)
   
-  Permanent Joystick:
-  ![joystick_permanent](http://i66.tinypic.com/24cwrom.png)
+  <br/>Permanent Joystick:
+  <br/>![joystick_permanent](http://i66.tinypic.com/24cwrom.png)
   ![gpt.joystick_permanent](https://media.giphy.com/media/1zjzMnw1PtjJgRJUC4/giphy.gif)
 
 #### Notes:
