@@ -1,7 +1,9 @@
-extends CanvasLayer
+extends Control
 
 func _physics_process(delta):
-	if $Joystick.stick_angle:
-		$"..".rotation = $Joystick.stick_angle
+	$Joystick.stick_angle = 123
 	
-	$"..".position += $Joystick.stick_vector * $Joystick.stick_speed * 2 * delta
+	if $Joystick.stick_angle:
+		$"../Player".rotation = $Joystick.stick_angle
+	
+	$"../Player".position += $Joystick.stick_vector * $Joystick.stick_speed * 2 * delta

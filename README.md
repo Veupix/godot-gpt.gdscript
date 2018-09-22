@@ -46,14 +46,15 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 * **Joystick** _(controller for Joystick emulation; by default displays on Game scene)_
   * Settings:
     * `sensivity` _(skip N units before Joystick will be opened; by default `50`)_
+    * `permanent` _(`true` will always displays controller on scene, `false` - on demand; by default uses value of property `visible`)_
     * `use_up` _(use up direction; by default `true`)_
     * `use_down` _(use down direction; by default `true`)_
     * `use_left` _(use left direction; by default `true`)_
     * `use_right` _(use right direction; by default `true`)_
   * Position:
-    * `stick_vector`
-    * `stick_speed`
-    * `stick_angle`
+    * `stick_angle` _(read only)_
+    * `stick_speed` _(read only)_
+    * `stick_vector` _(read only)_
 
 #### Notes:
 * all animations and themes are saved in `.tres` text files to easiest changing

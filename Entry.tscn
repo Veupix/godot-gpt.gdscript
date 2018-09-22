@@ -9,7 +9,7 @@
 [ext_resource path="res://SkipHint.gd" type="Script" id=7]
 [ext_resource path="res://EntryShow.tres" type="Animation" id=8]
 
-[node name="Entry" type="Node" index="0"]
+[node name="Entry" type="Node"]
 
 pause_mode = 2
 script = ExtResource( 1 )
