@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/joystick_small.png-1f7c289a6189ade2976c2c6b67ee1656.stex"
+path="res://.import/Joystick_int.png-33745c18c103791df67b4862ec25d4e4.stex"
 
 [deps]
 
-source_file="res://0_Global/Assets/Images/joystick_small.png"
-dest_files=[ "res://.import/joystick_small.png-1f7c289a6189ade2976c2c6b67ee1656.stex" ]
+source_file="res://0_Global/Assets/Images/Joystick_int.png"
+dest_files=[ "res://.import/Joystick_int.png-33745c18c103791df67b4862ec25d4e4.stex" ]
 
 [params]
 
