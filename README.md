@@ -58,11 +58,11 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
   
   Dynamic Joystick:
   <br/>![joystick_dynamic](http://i64.tinypic.com/1tsu9t.png)
-  <br/>![gpt.joystick_dynamic](https://media.giphy.com/media/XJMrXeIrDhegQpeR1C/giphy.gif)
+  <br/>![gpt.joystick_dynamic](https://media.giphy.com/media/RekVVr55owigX4a194/giphy.gif)
   
   Permanent Joystick:
   <br/>![joystick_permanent](http://i66.tinypic.com/24cwrom.png)
-  <br/>![gpt.joystick_permanent](https://media.giphy.com/media/1zjzMnw1PtjJgRJUC4/giphy.gif)
+  <br/>![gpt.joystick_permanent](https://media.giphy.com/media/wZQBKIvaKLdYX12You/giphy.gif)
 
 #### Notes:
 * all animations and themes are saved in `.tres` text files to easiest changing
