@@ -7,9 +7,9 @@ var use_down = true
 var use_left = true
 var use_right = true
 
-var stick_vector = Vector2() setget private_setter
-var stick_speed = 0 setget private_setter
 var stick_angle = 0 setget private_setter
+var stick_speed = 0 setget private_setter
+var stick_vector = Vector2() setget private_setter
 
 var radius_ext = 0 setget private_setter
 var radius_int = 0 setget private_setter
@@ -45,9 +45,9 @@ func hideJoystick(event):
 	if not permanent:
 		$"../JoystickAnim".play('hide')
 	
+	stick_angle = 0
 	stick_speed = 0
 	stick_vector = Vector2()
-	stick_angle = 0
 	
 	$Stick.position = Vector2()
 
