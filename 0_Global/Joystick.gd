@@ -28,20 +28,20 @@ func _input(event):
 	if event is InputEventScreenTouch:
 		is_pressed = event.is_pressed()
 		if not is_pressed:
-			hide(event)
+			hideJoystick(event)
 	elif event is InputEventScreenDrag and is_pressed:
 		if not $"..".visible and $"..".rect_position.distance_to(event.position) >= sensivity:
-			show(event)
+			showJoystick(event)
 		else:
-			move(event)
+			moveJoystick(event)
 
-func show(event):
+func showJoystick(event):
 	$"..".rect_position = event.position
 	$Stick.position = Vector2()
 	
 	$"../JoystickAnim".play('show')
 
-func hide(event):
+func hideJoystick(event):
 	if not permanent:
 		$"../JoystickAnim".play('hide')
 	
@@ -51,7 +51,7 @@ func hide(event):
 	
 	$Stick.position = Vector2()
 
-func move(event):
+func moveJoystick(event):
 	var next_pos = event.position
 	
 	if ( not use_up and next_pos.y < $"..".rect_position.y ) or ( not use_down and next_pos.y > $"..".rect_position.y ):

@@ -7,7 +7,10 @@ path="res://.import/Joystick_int.png-33745c18c103791df67b4862ec25d4e4.stex"
 [deps]
 
 source_file="res://0_Global/Assets/Images/Joystick_int.png"
+source_md5="3af206a90234f83d2df15251d3179b37"
+
 dest_files=[ "res://.import/Joystick_int.png-33745c18c103791df67b4862ec25d4e4.stex" ]
+dest_md5="dca38e76c7235c646d5439867968d4ff"
 
 [params]
 

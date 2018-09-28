@@ -12,7 +12,7 @@
 
 position = Vector2( 532.672, 299.152 )
 texture = ExtResource( 1 )
-_sections_unfolded = [ "Transform" ]
+_sections_unfolded = [ "Offset", "Transform" ]
 
 [node name="ToggleMenu" type="TouchScreenButton" parent="." index="1"]
 
