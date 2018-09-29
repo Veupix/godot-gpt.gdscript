@@ -6,19 +6,17 @@
 [ext_resource path="res://5_Game/JoystickLogic.gd" type="Script" id=4]
 [ext_resource path="res://4_GameMenu/GameMenu.tscn" type="PackedScene" id=5]
 
-[node name="Game" type="Node" index="0"]
+[node name="Game" type="Node"]
 
-[node name="Player" type="Sprite" parent="." index="0"]
-
-position = Vector2( 532.672, 299.152 )
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( 500.672, 290 )
 texture = ExtResource( 1 )
 _sections_unfolded = [ "Offset", "Transform" ]
 
-[node name="ToggleMenu" type="TouchScreenButton" parent="." index="1"]
-
+[node name="ToggleMenu" type="TouchScreenButton" parent="."]
 position = Vector2( 31.0261, 501.578 )
 normal = ExtResource( 1 )
-pressed = ExtResource( 1 )
+pressed = null
 bitmask = null
 shape = null
 shape_centered = false
@@ -29,8 +27,7 @@ visibility_mode = 0
 script = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="Joystick" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="Joystick" parent="." instance=ExtResource( 3 )]
 visible = false
 anchor_left = 1.0
 anchor_top = 1.0
@@ -42,17 +39,14 @@ margin_right = -95.0
 margin_bottom = -91.0
 script = ExtResource( 4 )
 
-[node name="GameMenu" parent="." index="3" instance=ExtResource( 5 )]
-
+[node name="GameMenu" parent="." instance=ExtResource( 5 )]
 visible = false
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4"]
-
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("..")
 autoplay = ""
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
 blend_times = [  ]
-
 

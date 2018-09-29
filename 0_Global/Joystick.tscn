@@ -66,8 +66,7 @@ tracks/1/keys = {
 "values": [ true ]
 }
 
-[node name="Joystick" type="Control" index="0"]
-
+[node name="Joystick" type="Control"]
 modulate = Color( 1, 1, 1, 0.0784314 )
 anchor_left = 0.0
 anchor_top = 0.0
@@ -81,21 +80,18 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 _sections_unfolded = [ "Pause", "Rect", "Visibility" ]
 
-[node name="Joystick" type="Sprite" parent="." index="0"]
-
+[node name="Joystick" type="Sprite" parent="."]
 scale = Vector2( 0.513593, 0.492317 )
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
 _sections_unfolded = [ "Pause", "Transform", "Visibility" ]
 
-[node name="Stick" type="Sprite" parent="Joystick" index="0"]
-
+[node name="Stick" type="Sprite" parent="Joystick"]
 scale = Vector2( 1.44083, 1.52341 )
 texture = ExtResource( 3 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 
-[node name="JoystickAnim" type="AnimationPlayer" parent="." index="1"]
-
+[node name="JoystickAnim" type="AnimationPlayer" parent="."]
 root_node = NodePath("..")
 autoplay = ""
 playback_process_mode = 1
@@ -104,5 +100,4 @@ playback_speed = 1.0
 anims/hide = SubResource( 1 )
 anims/show = SubResource( 2 )
 blend_times = [  ]
-
 
