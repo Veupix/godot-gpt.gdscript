@@ -9,7 +9,7 @@ Just so as **not to waste time** creating **standard parts** and structure **fro
 
 #### Requirements:
 Only Godot engine.
-_tested on Godot 3.0 (stable) and Godot 3.1 (alpha)_
+<br/>_tested on Godot 3.0 (stable) and Godot 3.1 (alpha)_
 
 #### Template is Separated to:
 * [Global](0_Global) _(scripts for AutoLoading, [shared controls](#shared-controls), assets (fonts, textures, audio/video), etc.)_
