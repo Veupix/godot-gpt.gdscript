@@ -56,14 +56,6 @@ Only Godot engine.
     * `stick_angle` _(read only)_
     * `stick_speed` _(read only)_
     * `stick_vector` _(read only)_
-  
-  Dynamic Joystick:
-  <br/>![joystick_dynamic](http://i64.tinypic.com/1tsu9t.png)
-  <br/>![gpt.joystick_dynamic](https://media.giphy.com/media/RekVVr55owigX4a194/giphy.gif)
-  
-  Permanent Joystick:
-  <br/>![joystick_permanent](http://i66.tinypic.com/24cwrom.png)
-  <br/>![gpt.joystick_permanent](https://media.giphy.com/media/wZQBKIvaKLdYX12You/giphy.gif)
 
 #### Notes:
 * all animations and themes are saved in `.tres` text files to easiest changing
